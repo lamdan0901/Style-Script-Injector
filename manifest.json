@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
   "name": "Style Script Injector",
-  "version": "1.1.0",
-  "description": "Inject per-site CSS/JS to improve website styling. Includes Bitbucket PR tab fixes.",
+  "version": "1.1.1",
+  "description": "Inject per-site CSS/JS. Bitbucket PR tabs; Facebook hide No More Stories.",
   "icons": {
     "16": "icon.png",
     "48": "icon.png",
@@ -12,6 +12,10 @@
     {
       "matches": ["https://bitbucket.org/*"],
       "css": ["sites/bitbucket/styles.css"]
+    },
+    {
+      "matches": ["https://www.facebook.com/*"],
+      "js": ["sites/facebook/hide-no-more-stories.js"]
     }
   ]
 }
