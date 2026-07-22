@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Better Bitbucket",
+  "version": "1.0.0",
+  "description": "Fixes Bitbucket PR tab strip position for easier navigation.",
+  "content_scripts": [
+    {
+      "matches": ["https://bitbucket.org/*"],
+      "css": ["styles.css"]
+    }
+  ]
+}

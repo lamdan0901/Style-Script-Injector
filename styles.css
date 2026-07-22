@@ -1,0 +1,7 @@
+/* Better Bitbucket: fix PR tab strip position on bitbucket.org */
+nav[aria-label="Pull request"] > div {
+  position: fixed;
+  z-index: 999;
+  top: 75px;
+  right: 30%;
+}
